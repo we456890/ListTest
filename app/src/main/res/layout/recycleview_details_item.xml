@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:layout_marginTop="1dp"
+    android:background="#fff">
+    <TextView
+        android:layout_marginTop="12dp"
+        android:text="2017-8-8"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="测试标题"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:maxLines="1"
+        android:text="由于昨天举办了一个大型活动，所以日报推迟到今天提交。昨天的活..."
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:text="张三"
+            android:textSize="12sp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999"/>
+        <TextView
+            android:text="2017-8-8"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999"/>
+    </LinearLayout>
+</LinearLayout>

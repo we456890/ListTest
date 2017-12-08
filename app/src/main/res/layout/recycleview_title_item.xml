@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@mipmap/work_reporting">
+
+        <ImageView
+            android:id="@+id/work1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="26dp"
+            android:background="@mipmap/work_reportingicon" />
+
+        <TextView
+            android:id="@+id/work2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@id/work1"
+            android:text="汇报"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/work_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@id/work2"
+            android:text="0条未处理"
+            android:textColor="#ff7800"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/work_much"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:text="更多 >"
+            android:textColor="#ff7800"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</LinearLayout>
